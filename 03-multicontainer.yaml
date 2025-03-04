@@ -9,5 +9,7 @@ spec:
     image: nginx
   - name: almalinux
     image: almalinux:9
+    command: ["sleep", "500"]
   - name: apache
     image: httpd
+    command: ["sleep", "500"]
