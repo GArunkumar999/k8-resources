@@ -6,7 +6,8 @@ metadata:
   project: expense
   component: backend
   environment: dev
-
+  version: "1.0.0"
+  demo: np
 spec:
   containers:
   - name: nginx
