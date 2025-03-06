@@ -17,8 +17,8 @@ spec:
         tier: web
     spec:
       containers:
-      - name: arun596/nginx:1.0.0
-        image: nginx
+      - name: nginx
+        image: arun596/nginx:1.0.0
 
 ---
 apiVersion: v1
