@@ -18,8 +18,8 @@ kind: Pod
 metadata:
   name: nginx
   labels:
-  purpose: "ebs-static-demo"
-  app: nginx
+    purpose: "ebs-static-demo"
+    app: nginx
 spec:
   nodeSelector:
     topology.kubernetes.io/zone: us-east-1a
