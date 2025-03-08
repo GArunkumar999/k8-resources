@@ -18,6 +18,8 @@ kind: Pod
 metadata:
   name: nginx
 spec:
+  nodeSelector:
+    topology.kubernetes.io/zone: us-east-1b
   containers:
   - name: app
     image: nginx
