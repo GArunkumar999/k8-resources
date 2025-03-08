@@ -38,7 +38,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: nginx
+  name: nginx-lb
 spec:
   type: LoadBalancer
   selector: # labels are used as selectors
