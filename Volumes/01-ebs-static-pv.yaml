@@ -11,3 +11,7 @@ spec:
     driver: ebs.csi.aws.com
     fsType: ext4
     volumeHandle: vol-05f482dcb7269ad68
+
+#static---create volume in aws-->pv-->pvc-->pod-->service.
+#dynamic---create storage class-->pvc-->pod-->service
+
