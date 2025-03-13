@@ -27,6 +27,7 @@ spec:
   minReadySeconds: 10 # by default is 0
   template:
     metadata:
+      namespace: nginx
       labels:
         app: nginx # has to match .spec.selector.matchLabels
     spec:
