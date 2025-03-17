@@ -20,7 +20,7 @@ metadata:
 subjects:
 # You can specify more than one "subject"
 - kind: ServiceAccount
-  name:  # "name" is case sensitive
+  name: expense-mysql-secret # "name" is case sensitive
   namespace: expense
 roleRef:
   # "roleRef" specifies the binding to a Role / ClusterRole
